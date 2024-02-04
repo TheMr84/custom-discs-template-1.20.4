@@ -1,0 +1,13 @@
+{
+  "disk1_audio": {
+    "sounds": [
+      {
+        "name": "custom-discs:disk1_audio",
+        "stream": true
+      }
+    ]
+  }
+
+
+
+}

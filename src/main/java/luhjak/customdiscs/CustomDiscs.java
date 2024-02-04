@@ -1,5 +1,9 @@
 package luhjak.customdiscs;
 
+import luhjak.customdiscs.datagen.ModItemTagProvider;
+import luhjak.customdiscs.item.ModItemGroups;
+import luhjak.customdiscs.item.ModItems;
+import luhjak.customdiscs.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,9 +15,8 @@ public class CustomDiscs implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModSounds.registerSounds();
 	}
 }

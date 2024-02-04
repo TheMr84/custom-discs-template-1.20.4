@@ -1,0 +1,7 @@
+{
+  "item.custom-discs.disk1_music_disc": "disk1",
+  "item.custom-discs.disk1_music_disc.desc": "disk1 music",
+  "item.custom-discs.disk2": "disk2",
+
+  "itemgroup.disks": "Disks"
+}
